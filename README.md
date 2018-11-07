@@ -6,16 +6,22 @@ This is intended to run on Python 3, enter ``` make ``` in the console from the 
 
 ## Usage
 Returns the most sold item e.g:
+
 ``` >> python3 app.py most_sold ```
+
 ``` >> Heavy Duty Concrete Watch ```
 
 
 Returns the total spend for a user (specified via email) e.g:
+
 ``` >> python3 app.py total_spend drift.rock@email.com ```
+
 ``` >> 22.98 ```
 
 Returns the most loyal customer e.g:
+
 ``` >> python3 app.py most_loyal ```
+
 ``` >> drift.rock@email.com ```
 
 
