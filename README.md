@@ -30,6 +30,7 @@ Barebones integrarion test ```  >> make integration_tests```
 ## Improvements
 - Design pattern usage. e.g Strategy pattern to be used in the src/app.py to replace if-else logic. 
 - More Encapsulation. e.g purchases calculations should be behaviour of the purchase class, this would take some redesign and refactoring.
+- Lambdas - Alot of the calculations involve iterating over a collection. These operations could be more concise by using lambda functions.
 - Test coverage, alot of methods are untested, and the existing ones are limited. More edge cases could be explored, and also integration tests with a Mock External API could be added.
 - Custom exception handling for http requests.
 - A generic base class for creating API handlers, this could be used for other APIs.
